@@ -1,0 +1,22 @@
+Tibian-ani is an online times analyzer for CipSoft's MMORPG game Tibia. It
+checks for online players and generates useful statistics. It uses google's
+visualization API to watch the results.
+
+Usage by example:
+1. Create a crontab task to run check.py
+   i,e: */15 * * * * /path/to/check.py Amera # will check Amera game world
+2. Make sure you gather enough samples.
+3. Generate statistics with report.py
+   i,e: ./report.py -w Amera # will show general world activity during weekdays
+   i,e: ./report.py -w Amera -d Monday # will show general activity, hourly on mondays
+   i,e: ./report.py -w Amera -c "Mad Statistician" # will show player's activity
+   i,e: ./report.py -w Amera -g "Crazy Guild" # will show guild's activity
+   i,e: ./report.py -w Amera -g "Crazy Guild" -c "Mad Statistician" -d Monday # combo!!
+
+Useful for what?!
+* Watch your enemy guild online activity.
+* Watch your your enemy character most/less active times.
+* Combine information to find out the best moment for ingame combat!
+
+Is this too geek?!
+Yes.
