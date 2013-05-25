@@ -14,9 +14,12 @@ Usage by example:
    i,e: ./report.py -w Amera -g "Crazy Guild" -c "Mad Statistician" -d Monday # combo!!
 
 Useful for what?!
-* Watch your enemy guild online activity.
-* Watch your your enemy character most/less active times.
+* Watch your enemy guilds online activity.
+* Watch your enemy characters online activity.
 * Combine information to find out the best moment for ingame combat!
 
 Is this too geek?!
-Yes.
+* Yes.
+
+Dependencies:
+* Python 2.7.
